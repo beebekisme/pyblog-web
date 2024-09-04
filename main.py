@@ -4,6 +4,7 @@ from api.blog.blog import blog_router, list_blog_posts, load_blog_content, get_b
 from api.blog import blog
 from nicegui import ui
 from api.home import home
+
 app = FastAPI()
 
 origina = [
